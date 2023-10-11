@@ -18,5 +18,3 @@ public class CalculadoraImposto {
         }
     }
 }
-
-//94 - Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
