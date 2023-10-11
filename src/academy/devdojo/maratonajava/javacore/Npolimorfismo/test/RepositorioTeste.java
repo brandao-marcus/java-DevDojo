@@ -9,5 +9,3 @@ public class RepositorioTeste {
         repositorio.salvar();
     }
 }
-
-//95 - excecoes pt 01 - errors
