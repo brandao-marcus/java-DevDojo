@@ -39,5 +39,3 @@ public class TryWithResourcesTest01 {
         }
     }
 }
-
-//104 - Exceções pt 10 - Exceção customizada
