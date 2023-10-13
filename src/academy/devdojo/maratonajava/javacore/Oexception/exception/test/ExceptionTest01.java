@@ -18,5 +18,3 @@ public class ExceptionTest01 {
         }
     }
 }
-
-// 98 - excecoes pt 04 - lancando excecao unchecked
