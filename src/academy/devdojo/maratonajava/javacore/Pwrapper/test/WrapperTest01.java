@@ -23,6 +23,5 @@ public class WrapperTest01 {
         Character charW = 'M';
         Boolean booleanW = false;
 
-
     }
 }
