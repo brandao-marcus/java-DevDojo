@@ -21,6 +21,7 @@ public class PatternMatcherTest05 {
         // | o(v|c)o -> ovo | oco
         // $ fim da linha
         // . 1.3 = 123,133,1@3,1A3 (TUDO entre 1 e 3) coringa
+        // ^ O que estiver no colchete, não é achado. Exemplo: [^abc] TUDO menos o abc.
         String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
         String texto = "luffy@hotmail.com, 123jotaro@gmail.com, #@!zoro@mail.br, teste@gmail.com.br, sakura@mail";
         System.out.println("Email valido");
