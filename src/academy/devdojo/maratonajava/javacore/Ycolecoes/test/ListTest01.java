@@ -14,7 +14,6 @@ public class ListTest01 {
         nomes2.add("Academy");
 
 //        System.out.println(nomes.remove("marcus"));
-
         nomes.addAll(nomes2);
 
         for (String nome : nomes) {
