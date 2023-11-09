@@ -24,15 +24,11 @@ public class MapTest03 {
         consumidorMangaMap.put(consumidor1, mangaConsumidor1List);
         consumidorMangaMap.put(consumidor2, mangaConsumidor2List);
 
-        for (Map.Entry<Consumidor, List<Manga>> entry : consumidorMangaMap.entrySet()){
-            System.out.println("---"+entry.getKey().getNome());
+        for (Map.Entry<Consumidor, List<Manga>> entry : consumidorMangaMap.entrySet()) {
+            System.out.println("---" + entry.getKey().getNome());
             for (Manga manga : entry.getValue()) {
-                System.out.println("------"+manga.getNome());
-
+                System.out.println("------" + manga.getNome());
             }
-
         }
-
-
     }
 }
