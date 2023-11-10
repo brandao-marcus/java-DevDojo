@@ -1,7 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Ycolecoes.test;
+package academy.devdojo.maratonajava.javacore.Wnio.test.Ycolecoes.test;
 
-import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Consumidor;
-import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Manga;
+import academy.devdojo.maratonajava.javacore.Wnio.test.Ycolecoes.dominio.Manga;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

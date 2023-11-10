@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Ycolecoes.test;
+package academy.devdojo.maratonajava.javacore.Wnio.test.Ycolecoes.test;
 
 import java.util.ArrayList;
 import java.util.List;

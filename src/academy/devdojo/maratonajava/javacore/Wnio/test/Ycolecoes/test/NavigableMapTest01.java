@@ -1,7 +1,5 @@
-package academy.devdojo.maratonajava.javacore.Ycolecoes.test;
+package academy.devdojo.maratonajava.javacore.Wnio.test.Ycolecoes.test;
 
-
-import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Consumidor;
 
 import java.util.Map;
 import java.util.NavigableMap;

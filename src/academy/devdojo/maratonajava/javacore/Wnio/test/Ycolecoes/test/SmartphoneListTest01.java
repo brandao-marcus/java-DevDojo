@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Ycolecoes.test;
+package academy.devdojo.maratonajava.javacore.Wnio.test.Ycolecoes.test;
 
-import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Smartphone;
+import academy.devdojo.maratonajava.javacore.Wnio.test.Ycolecoes.dominio.Smartphone;
 
 import java.util.ArrayList;
 import java.util.List;
