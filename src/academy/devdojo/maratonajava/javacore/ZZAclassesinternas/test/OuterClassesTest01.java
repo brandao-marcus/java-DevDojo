@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.ZZAclassesinternas.test;
 // Classe externa
 public class OuterClassesTest01 {
     private String name = "Monkey D. Luffy";
-
+// Nested
 
     // Classe interna
     class Inner {
