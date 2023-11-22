@@ -37,8 +37,5 @@ public class StreamTest14 {
 
         Map<Category, LightNovel> collect3 = lightNovels.stream().collect(Collectors.toMap(LightNovel::getCategory, Function.identity(), BinaryOperator.maxBy(Comparator.comparing(LightNovel::getPrice))));
         System.out.println(collect3);
-
-
-
     }
 }
