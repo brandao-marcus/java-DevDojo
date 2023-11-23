@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.groupingBy;
+
 public class StreamTest13 {
     private static List<LightNovel> lightNovels = new ArrayList<>(List.of(
             new LightNovel("Tensei Shittara", 8.99, Category.FANTASY),
@@ -24,15 +26,18 @@ public class StreamTest13 {
     public static void main(String[] args) {
         Map<Promotion, List<LightNovel>> collect = lightNovels
                 .stream()
-                .collect(Collectors.groupingBy(ln -> ln.getPrice() < 6 ? Promotion.UNDER_PROMOTION : Promotion.NORMAL_PRICE
+                .collect(groupingBy(StreamTest13::getPromotion
                 ));
         System.out.println(collect);
 
         //Map<Category>, Map<Promotion, List<LightNovel>>>
+
         Map<Category, Map<Promotion, List<LightNovel>>> collect1 = lightNovels
-                .stream().collect(Collectors.groupingBy(LightNovel::getCategory,
-                        Collectors.groupingBy(ln -> ln.getPrice() < 6 ? Promotion.UNDER_PROMOTION : Promotion.NORMAL_PRICE
-                )));
+                .stream()
+                .collect(groupingBy(LightNovel::getCategory, groupingBy(StreamTest13::getPromotion)));
         System.out.println(collect1);
+    }
+
+    private static Promotion getPromotion(LightNovel ln) { return ln.getPrice() < 6 ? Promotion.UNDER_PROMOTION : Promotion.NORMAL_PRICE;
     }
 }
