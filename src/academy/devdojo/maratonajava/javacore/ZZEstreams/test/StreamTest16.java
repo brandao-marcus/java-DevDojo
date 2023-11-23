@@ -69,5 +69,4 @@ public class StreamTest16 {
         long end = System.currentTimeMillis();
         System.out.println(result + " " + (end - init) + "ms");
     }
-
 }
