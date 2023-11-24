@@ -26,6 +26,7 @@ class ThreadExampleRunnable implements Runnable {
     public ThreadExampleRunnable(char c) {
         this.c = c;
     }
+
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName());
@@ -53,8 +54,11 @@ public class ThreadTest01 {
         t2.start();
         t3.start();
         t4.start();
+        System.out.println("####################################"+Thread.currentThread().getName());
 
         //t1.run -> inicia sempre na mesma thread
         //t1.start -> inicia em uma nova thread
+
+        //uma vez q starta uma thread, nao pode repetir o start
     }
 }
