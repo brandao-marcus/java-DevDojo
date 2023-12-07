@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.javacore.ZZGconcorrencia.test;
 
 import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.dominio.Quote;
-import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.service.StoreServiceWithDiscount;
+import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.dominio.service.StoreServiceWithDiscount;
 
 import java.util.List;
 

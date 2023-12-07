@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.ZZGconcorrencia.service;
+package academy.devdojo.maratonajava.javacore.ZZGconcorrencia.dominio.service;
 
 
 import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.dominio.Members;

@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.ZZGconcorrencia.test;
 
 
 import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.dominio.Members;
-import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.service.EmailDeliveryService;
+import academy.devdojo.maratonajava.javacore.ZZGconcorrencia.dominio.service.EmailDeliveryService;
 
 import javax.swing.*;
 
