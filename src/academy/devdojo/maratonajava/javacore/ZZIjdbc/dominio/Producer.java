@@ -1,10 +1,21 @@
 package academy.devdojo.maratonajava.javacore.ZZIjdbc.dominio;
 
+import lombok.Builder;
+import lombok.Value;
+
 import java.util.Objects;
 
-public class Producer {
+@Value
+@Builder
+
+public final class Producer {
     private Integer id;
     private String name;
+
+    public Producer(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public static final class ProducerBuilder {
         private Integer id;
@@ -28,7 +39,7 @@ public class Producer {
         }
 
         public Producer build() {
-            Producer producer = new Producer();
+            Producer producer = new Producer(id, name);
             producer.name = this.name;
             producer.id = this.id;
             return producer;

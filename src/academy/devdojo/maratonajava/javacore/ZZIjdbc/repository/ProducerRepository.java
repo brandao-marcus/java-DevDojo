@@ -15,7 +15,7 @@ public class ProducerRepository {
             int rowsAffected = stmt.executeUpdate(sql);
             System.out.println(rowsAffected);
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
